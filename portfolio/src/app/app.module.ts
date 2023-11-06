@@ -30,7 +30,7 @@ import { ProjectComponent } from './components/common/project/project.component'
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
