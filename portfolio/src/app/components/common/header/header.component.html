@@ -1,11 +1,15 @@
-<mat-toolbar color="primary">
-Portfolio
-<button routerLink="">Home</button>
-<button routerLink="/about-me">About Me</button>
-<button routerLink="/projects">Projects</button>
-<button routerLink="/skills">Skills</button>
-<button routerLink="/contact">Contact</button>
-
+<mat-toolbar class="toolbar" color="primary">
+  <div class="name-title">
+    <h2 class="nav-items">Natalia Torrejón</h2>
+    <h2 class="nav-items">Front-End Developer</h2>
+  </div>
+  <div class="nav-buttons-div nav-items">
+    <button class="nav-buttons" routerLink="">Home</button>
+    <button class="nav-buttons" routerLink="/about-me">About Me</button>
+    <button class="nav-buttons" routerLink="/projects">Projects</button>
+    <button class="nav-buttons" routerLink="/skills">Skills</button>
+    <button class="nav-buttons" routerLink="/contact">Contact</button>
+  </div>
 </mat-toolbar>
 
 <router-outlet></router-outlet>
