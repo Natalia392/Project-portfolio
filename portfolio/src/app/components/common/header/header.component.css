@@ -1,9 +1,61 @@
 .toolbar {
   display: flex;
   justify-content: space-between;
+  height: 6rem;
+  width: 100%;
 }
 
 .nav-items {
   font-weight: 100;
   margin: 0;
+}
+
+.name-in-nav {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.nav-img {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-icon {
+  height: 3rem;
+  width: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF3F7;
+}
+
+.nav-buttons {
+  font-size: 1.5rem;
+  font-family: Roboto;
+  font-weight: 100;
+}
+
+.nav-buttons-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 45%;
+}
+
+/*-------------  HOVER ---------------*/
+.nav-buttons:hover {
+  cursor: pointer;
+}
+
+.name-title:hover {
+  cursor: pointer;
 }
