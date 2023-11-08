@@ -1,0 +1,5 @@
+.about-me-main {
+  display: flex;
+  justify-content: space-between;
+  background-color:black;
+}

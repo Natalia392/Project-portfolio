@@ -1,0 +1,10 @@
+.home-main {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color:black;
+}
+
+.vertical-banner {
+  height: 100%;
+}
