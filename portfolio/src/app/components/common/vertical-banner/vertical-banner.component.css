@@ -1,0 +1,11 @@
+.vertical-banner {
+  width: 10rem;
+  height: 100%;
+}
+
+.vertical-banner img {
+  max-width: 100%; /* La imagen se ajustará al ancho del aside */
+  max-height: 100%; /* La imagen se ajustará a la altura del aside */
+  margin: 0;
+
+}
