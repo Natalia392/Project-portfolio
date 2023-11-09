@@ -9,6 +9,6 @@ import { Router } from '@angular/router';
 export class HeaderComponent {
   constructor(private router: Router) {}
 
-  keyboardIconSrc = '../../assets/img/keyboard-icon.png'
+  keyboardIconSrc = '../../assets/img/general-img/keyboard-icon.png'
 
 }

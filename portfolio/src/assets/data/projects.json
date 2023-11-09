@@ -1,0 +1,26 @@
+{
+  "proyectos": [
+    {
+      "id": 1,
+      "name": "Card Validation",
+      "image": "ruta/a/la/imagen.jpg",
+      "description": "Una breve descripción del proyecto 1.",
+      "technologies": ["Angular", "HTML", "CSS"],
+      "urlGitHub": "https://github.com/tuusuario/proyecto1",
+      "urlDeploy": "https://ejemplo.com/proyecto1"
+    },
+    {
+      "id": 2,
+      "name": "Proyecto 2",
+      "image": "ruta/a/la/imagen2.jpg",
+      "description": "Una breve descripción del proyecto 2.",
+      "technologies": ["Angular", "Node.js", "MongoDB"],
+      "urlGitHub": "https://github.com/tuusuario/proyecto2",
+      "urlDeploy": "https://ejemplo.com/proyecto2"
+    }
+  ]
+}
+
+
+
+
