@@ -1,11 +1,20 @@
-{
+export default {
   "projects": [
     {
       "id": 1,
       "name": "Card Validation",
       "image": "portfolio/src/assets/img/project-imgs/card-validation.png",
       "description": "Una breve descripción del proyecto 1.",
-      "technologies": ["JavaScript", "HTML", "CSS", "VSCode", "Git", "GitHub", "Eslint", "Web APIs"],
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "VSCode",
+        "Git",
+        "GitHub",
+        "Eslint",
+        "Web APIs"
+      ],
       "urlGitHub": "https://github.com/Natalia392/DEV007-card-validation",
       "urlDeploy": "https://natalia392.github.io/DEV007-card-validation/"
     },
@@ -14,7 +23,16 @@
       "name": "Ghiblipedia",
       "image": "portfolio/src/assets/img/project-imgs/ghiblipedia.png",
       "description": "A web site with most Studio Ghibli movies and characters",
-      "technologies": ["JavaScript", "HTML", "CSS", "VSCode", "Git", "GitHub", "Eslint", "Figma"],
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "VSCode",
+        "Git",
+        "GitHub",
+        "Eslint",
+        "Figma"
+      ],
       "urlGitHub": "https://github.com/Natalia392/DEV007-data-lovers",
       "urlDeploy": "https://natalia392.github.io/DEV007-data-lovers/"
     },
@@ -23,7 +41,18 @@
       "name": "La comunidad del libro: A social network",
       "image": "portfolio/src/assets/img/project-imgs/comunidad-del-libro.png",
       "description": "Social network for book lovers",
-      "technologies": ["JavaScript", "HTML", "CSS", "VSCode", "Git", "GitHub", "Eslint", "Firebase", "Jest", "Figma"],
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "VSCode",
+        "Git",
+        "GitHub",
+        "Eslint",
+        "Firebase",
+        "Jest",
+        "Figma"
+      ],
       "urlGitHub": "https://github.com/Natalia392/DEV007-social-network",
       "urlDeploy": "https://la-comunidad-del-libro.web.app/"
     },
@@ -32,7 +61,18 @@
       "name": "Markdown Links",
       "image": "portfolio/src/assets/img/project-imgs/mdlinks.png",
       "description": "CLI to search links in md files through directories",
-      "technologies": ["JavaScript", "Node.js", "VSCode", "Git", "GitHub", "GitHub Projects", "Eslint", "Jest", "Axios", "Chalk"],
+      "technologies": [
+        "JavaScript",
+        "Node.js",
+        "VSCode",
+        "Git",
+        "GitHub",
+        "GitHub Projects",
+        "Eslint",
+        "Jest",
+        "Axios",
+        "Chalk"
+      ],
       "urlGitHub": "https://github.com/Natalia392/DEV007-md-links",
       "urlDeploy": "https://www.npmjs.com/package/nati-md-links"
     },
@@ -41,7 +81,10 @@
       "name": "Chat bot: chat with your files",
       "image": "portfolio/src/assets/img/project-imgs/chat-files.png",
       "description": "A chat bot that answers according to a given text",
-      "technologies": ["Flowise", "Langchain Components"],
+      "technologies": [
+        "Flowise",
+        "Langchain Components"
+      ],
       "urlGitHub": "https://github.com/Natalia392/UPSK-AI-APPS-001-chat-with-your-files",
       "urlDeploy": ""
     },
@@ -50,7 +93,12 @@
       "name": "Chat bot: prompt to json",
       "image": "portfolio/src/assets/img/project-imgs/prompt.png",
       "description": "A chat bot that answers to a concept in json",
-      "technologies": ["Flowise", "Prompts Templates", "Git", "GitHub"],
+      "technologies": [
+        "Flowise",
+        "Prompts Templates",
+        "Git",
+        "GitHub"
+      ],
       "urlGitHub": "https://github.com/Natalia392/UPSK-AI-APPS-001-prompt-to-json",
       "urlDeploy": ""
     },
@@ -59,7 +107,17 @@
       "name": "Burger Queen",
       "image": "portfolio/src/assets/img/project-imgs/BBQ.png",
       "description": "A web aplication to take food orders",
-      "technologies": ["Angular", "HTML5", "CSS", "TypeScript", "Git", "GitHub", "Eslint", "Jazmine", "Figma"],
+      "technologies": [
+        "Angular",
+        "HTML5",
+        "CSS",
+        "TypeScript",
+        "Git",
+        "GitHub",
+        "Eslint",
+        "Jazmine",
+        "Figma"
+      ],
       "urlGitHub": "https://github.com/Natalia392/DEV007-burger-queen-api-client",
       "urlDeploy": ""
     },
@@ -68,7 +126,14 @@
       "name": "The Missing Piece",
       "image": "portfolio/src/assets/img/project-imgs/missing-piece.png",
       "description": "A web aplication for elderly to exchange puzzles",
-      "technologies": ["React", "CSS", "Git", "GitHub", "GitHub Projects", "Figma"],
+      "technologies": [
+        "React",
+        "CSS",
+        "Git",
+        "GitHub",
+        "GitHub Projects",
+        "Figma"
+      ],
       "urlGitHub": "https://github.com/WWC-Hackathon-2023/the_missing_piece_fe",
       "urlDeploy": "https://the-missing-piece.vercel.app/"
     },
@@ -77,13 +142,16 @@
       "name": "iBot",
       "image": "portfolio/src/assets/img/project-imgs/ibot.png",
       "description": "A bot to assist users to generate requirement or incident tickets",
-      "technologies": ["React", "CSS", "Git", "GitHub", "GitHub Projects", "Flowise"],
+      "technologies": [
+        "React",
+        "CSS",
+        "Git",
+        "GitHub",
+        "GitHub Projects",
+        "Flowise"
+      ],
       "urlGitHub": "https://github.com/orianajpp/Talent-Fest-Itau2",
       "urlDeploy": "https://talent-fest-itau2.web.app/"
     }
   ]
-}
-
-
-
-
+};
