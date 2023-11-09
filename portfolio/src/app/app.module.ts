@@ -14,6 +14,7 @@ import { HeaderComponent } from './components/common/header/header.component';
 import { SkillComponent } from './components/common/skill/skill.component';
 import { ProjectComponent } from './components/common/project/project.component';
 import { VerticalBannerComponent } from './components/common/vertical-banner/vertical-banner.component';
+import { OneProjectComponent } from './components/one-project/one-project.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { VerticalBannerComponent } from './components/common/vertical-banner/ver
     SkillComponent,
     ProjectComponent,
     VerticalBannerComponent,
+    OneProjectComponent,
   ],
   imports: [
     BrowserModule,
