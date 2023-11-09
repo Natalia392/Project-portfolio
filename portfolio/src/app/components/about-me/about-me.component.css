@@ -3,3 +3,32 @@
   justify-content: space-between;
   background-color:black;
 }
+
+.section-about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.about-me-title,
+.about-me-p {
+  color: #C5FCEF;
+  font-weight: 100;
+  margin: 1rem;
+}
+
+.about-me-p {
+  font-size: 1rem;
+}
+
+.about-me-title {
+  font-size: 3rem;
+}
+
+.moca-me {
+  width: 13rem;
+  height: auto;
+  border-radius: 5px;
+}
