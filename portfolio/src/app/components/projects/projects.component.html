@@ -1,5 +1,8 @@
 <app-header></app-header>
 <main class="project-main">
   <app-vertical-banner></app-vertical-banner>
+  <section class="projects-section" *ngFor="let project of projects">
+    <app-one-project [project]="project" ></app-one-project>
+  </section>
   <app-vertical-banner></app-vertical-banner>
 </main>

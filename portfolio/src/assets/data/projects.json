@@ -1,10 +1,10 @@
-export default {
+{
   "projects": [
     {
       "id": 1,
       "name": "Card Validation",
-      "image": "portfolio/src/assets/img/project-imgs/card-validation.png",
-      "description": "Una breve descripción del proyecto 1.",
+      "image": "../../assets/img/project-imgs/card-validation.png",
+      "description": "An interface that checks if a number is a valid credit card number",
       "technologies": [
         "JavaScript",
         "HTML",
@@ -21,7 +21,7 @@ export default {
     {
       "id": 2,
       "name": "Ghiblipedia",
-      "image": "portfolio/src/assets/img/project-imgs/ghiblipedia.png",
+      "image": "../../assets/img/project-imgs/ghiblipedia.png",
       "description": "A web site with most Studio Ghibli movies and characters",
       "technologies": [
         "JavaScript",
@@ -39,7 +39,7 @@ export default {
     {
       "id": 3,
       "name": "La comunidad del libro: A social network",
-      "image": "portfolio/src/assets/img/project-imgs/comunidad-del-libro.png",
+      "image": "../../assets/img/project-imgs/comunidad-del-libro.png",
       "description": "Social network for book lovers",
       "technologies": [
         "JavaScript",
@@ -59,7 +59,7 @@ export default {
     {
       "id": 4,
       "name": "Markdown Links",
-      "image": "portfolio/src/assets/img/project-imgs/mdlinks.png",
+      "image": "../../assets/img/project-imgs/mdlinks.png",
       "description": "CLI to search links in md files through directories",
       "technologies": [
         "JavaScript",
@@ -79,7 +79,7 @@ export default {
     {
       "id": 5,
       "name": "Chat bot: chat with your files",
-      "image": "portfolio/src/assets/img/project-imgs/chat-files.png",
+      "image": "../../assets/img/project-imgs/chat-files.png",
       "description": "A chat bot that answers according to a given text",
       "technologies": [
         "Flowise",
@@ -91,7 +91,7 @@ export default {
     {
       "id": 6,
       "name": "Chat bot: prompt to json",
-      "image": "portfolio/src/assets/img/project-imgs/prompt.png",
+      "image": "../../assets/img/project-imgs/prompt.png",
       "description": "A chat bot that answers to a concept in json",
       "technologies": [
         "Flowise",
@@ -105,7 +105,7 @@ export default {
     {
       "id": 7,
       "name": "Burger Queen",
-      "image": "portfolio/src/assets/img/project-imgs/BBQ.png",
+      "image": "../../assets/img/project-imgs/BBQ.png",
       "description": "A web aplication to take food orders",
       "technologies": [
         "Angular",
@@ -124,7 +124,7 @@ export default {
     {
       "id": 8,
       "name": "The Missing Piece",
-      "image": "portfolio/src/assets/img/project-imgs/missing-piece.png",
+      "image": "../../assets/img/project-imgs/missing-piece.png",
       "description": "A web aplication for elderly to exchange puzzles",
       "technologies": [
         "React",
@@ -140,7 +140,7 @@ export default {
     {
       "id": 9,
       "name": "iBot",
-      "image": "portfolio/src/assets/img/project-imgs/ibot.png",
+      "image": "../../assets/img/project-imgs/ibot.png",
       "description": "A bot to assist users to generate requirement or incident tickets",
       "technologies": [
         "React",
@@ -154,4 +154,4 @@ export default {
       "urlDeploy": "https://talent-fest-itau2.web.app/"
     }
   ]
-};
+}
