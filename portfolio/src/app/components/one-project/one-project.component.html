@@ -7,6 +7,8 @@
   <div class="technologies-card" *ngFor="let technology of project?.technologies">
     {{ technology }}
   </div>
-  <a [href]="project?.urlGitHub" target="_blank">GitHub Repo</a>
-  <a *ngIf="project?.urlDeploy" [href]="project?.urlDeploy" target="_blank">Deployed App</a>
+  <div class="project-btn-div">
+    <a class="project-btn" [href]="project?.urlGitHub" target="_blank">View Repo</a>
+    <a class="project-btn" *ngIf="project?.urlDeploy" [href]="project?.urlDeploy" target="_blank">View App</a>
+  </div>
 </article>
