@@ -1,3 +1,12 @@
-<article class="project">
-  <img class="project-img" [src]="project?.image" alt="project?.name">
+<article class="project-card">
+  <h2 class="project-title"> {{project?.name}} </h2>
+  <figure>
+    <img class="project-img" [src]="project?.image" alt="{{project?.name}} Image">
+  </figure>
+  <p class="project-description"> {{project?.description}} </p>
+  <div class="technologies-card" *ngFor="let technology of project?.technologies">
+    {{ technology }}
+  </div>
+  <a [href]="project?.urlGitHub" target="_blank">GitHub Repo</a>
+  <a *ngIf="project?.urlDeploy" [href]="project?.urlDeploy" target="_blank">Deployed App</a>
 </article>
