@@ -1,11 +1,16 @@
 <article class="project-card">
-  <h2 class="project-title"> {{project?.name}} </h2>
-  <figure>
-    <img class="project-img" [src]="project?.image" alt="{{project?.name}} Image">
-  </figure>
-  <p class="project-description"> {{project?.description}} </p>
-  <div class="technologies-card" *ngFor="let technology of project?.technologies">
-    {{ technology }}
+  <h2 class="project-title text-project"> {{project?.name}} </h2>
+  <div class="project-data">
+    <figure>
+      <img class="project-img" [src]="project?.image" alt="{{project?.name}} Image">
+    </figure>
+    <p class="project-description text-project"> {{project?.description}} </p>
+    <ul class="technologies-list text-project"
+      *ngIf="project && project.technologies && project.technologies.length > 0">
+      <li *ngFor="let technology of project.technologies" class="technologies-item">
+        {{ technology }} -
+      </li>
+    </ul>
   </div>
   <div class="project-btn-div">
     <a class="project-btn" [href]="project?.urlGitHub" target="_blank">View Repo</a>
