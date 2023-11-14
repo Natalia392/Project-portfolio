@@ -1,7 +1,6 @@
 .project-card {
   height: 22rem;
   background-color: #65BAA9;
-  border: 2px solid #C5FCEF;
   padding: 1rem;
   display: flex;
   flex-wrap: wrap;
@@ -12,6 +11,7 @@
 
 .project-card:hover {
   transform: scale(1.03);
+  border: 2px solid #C5FCEF;
 }
 
 /*--------- fondo imagen ----------*/
