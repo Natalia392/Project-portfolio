@@ -41,6 +41,7 @@ a {
   font-size: 1rem;
   font-family: Roboto;
   font-weight: 100;
+  transition: background-color 0.3s ease;
 }
 
 .nav-buttons-ul {
@@ -49,12 +50,13 @@ a {
   align-items: center;
   flex-wrap: wrap;
   width: 45%;
+  transition: background-color 0.3s ease;
 }
 
 /*-------------  HOVER ---------------*/
 .nav-buttons:hover {
   cursor: pointer;
-
+  font-weight: bold;
 }
 
 .name-title h1,
