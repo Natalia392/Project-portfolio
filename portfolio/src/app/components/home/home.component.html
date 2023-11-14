@@ -1,2 +1,19 @@
-<p>Home works!</p>
-<app-header></app-header>
+<main class="home-main">
+  <app-vertical-banner class="vertical-banner"></app-vertical-banner>
+  <section class="container-info-home">
+    <div class="name-role">
+      <h2 class="name-role-title">Natalia Torrejón</h2>
+      <h2 class="name-role-title">Front-End Developer</h2>
+    </div>
+    <figure class="name-role">
+      <img class="moca-me" src="../../assets/img/general-img/moca-y-yo.png" alt="moca-y-yo">
+    </figure>
+    <div class="btn-div">
+      <button class="pink-btn" routerLink="/projects">
+        Come see my work!
+      </button>
+    </div>
+  </section>
+  <app-vertical-banner class="vertical-banner"></app-vertical-banner>
+</main>
+<router-outlet></router-outlet>

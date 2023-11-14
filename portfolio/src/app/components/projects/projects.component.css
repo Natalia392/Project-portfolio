@@ -1,0 +1,31 @@
+.project-main {
+  display: grid;
+  grid-template-columns: 10rem auto 10rem;
+  grid-template-areas: "left-banner projects-section right-banner";
+  background-color: black;
+  gap: 1rem
+}
+
+/* .left-banner {
+  grid-area: left-banner;
+}
+
+.right-banner {
+  grid-area: right-banner;
+} */
+
+.projects-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Dos columnas de igual tamaño */
+  column-gap: 2rem;
+  row-gap: 5rem;
+  padding: 2rem;
+  max-height: 30rem; /* Establece la altura máxima según tus necesidades */
+  overflow: scroll;
+}
+
+app-one-project {
+  max-width: 15rem;
+  max-height: 30rem;
+  margin: 0 auto;
+}

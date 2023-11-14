@@ -9,24 +9,6 @@ import { Router } from '@angular/router';
 export class HeaderComponent {
   constructor(private router: Router) {}
 
-  goHome() {
-    this.router.navigate(['']);
-  }
+  keyboardIconSrc = '../../assets/img/general-img/keyboard-icon.png'
 
-  goAbout() {
-    console.log('hola')
-    this.router.navigate(['about-me']);
-  }
-
-  goProjects() {
-    this.router.navigate(['projects']);
-  }
-
-  goSkills() {
-    this.router.navigate(['skills']);
-  }
-
-  goContact() {
-    this.router.navigate(['contact']);
-  }
 }

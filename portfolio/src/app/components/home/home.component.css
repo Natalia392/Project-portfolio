@@ -1,0 +1,62 @@
+.home-main {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color:black;
+}
+
+.vertical-banner {
+  height: 100%;
+}
+
+.name-role-title {
+  color: #FFF3F7;
+  font-weight: 100;
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+.container-info-home {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.name-role {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.moca-me {
+  width: 13rem;
+  height: auto;
+  border-radius: 5px;
+}
+
+.pink-btn {
+  font-weight: bold;
+  font-size: large;
+  background-color: #C2185B;
+  color: #FFF3F7;
+  border-radius: 10px;
+  border: 0.5px solid #FFF3F7;
+  height: 3rem;
+  width: 12rem;
+  transition: background-color 1s ease;
+}
+
+.pink-btn:hover {
+  background-color: #FFF3F7;
+  color: #C2185B;
+  cursor: pointer;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+}
