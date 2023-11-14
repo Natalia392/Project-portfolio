@@ -22,12 +22,12 @@
   display: inline-block;
   background-color: #C2185B;
   padding: 0.5rem 0.7rem;
-  margin-top: 10px;
   height: 1rem;
   width: 4.5rem;
+  display: flex;
+  align-items: center;
   text-align: center;
   text-decoration: none;
-  font-weight: bold;
   border: 1px solid #FFF3F7;
   color: #FFF3F7;
   font-weight: 500;
