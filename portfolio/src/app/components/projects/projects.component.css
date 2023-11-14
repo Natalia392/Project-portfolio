@@ -8,11 +8,11 @@
 
 .projects-section {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Dos columnas de igual tamaño */
+  grid-template-columns: repeat(3, 1fr);
   column-gap: 2rem;
   row-gap: 5rem;
   padding: 2rem;
-  max-height: 30rem; /* Establece la altura máxima según tus necesidades */
+  max-height: 30rem;
   overflow: scroll;
 }
 
