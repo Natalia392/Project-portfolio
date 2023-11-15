@@ -6,22 +6,23 @@
   gap: 1rem
 }
 
-/* .left-banner {
-  grid-area: left-banner;
-}
-
-.right-banner {
-  grid-area: right-banner;
-} */
-
 .projects-section {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Dos columnas de igual tamaño */
+  grid-template-columns: repeat(3, 1fr);
   column-gap: 2rem;
   row-gap: 5rem;
   padding: 2rem;
-  max-height: 30rem; /* Establece la altura máxima según tus necesidades */
+  max-height: 30rem;
   overflow: scroll;
+}
+
+.projects-section::-webkit-scrollbar-thumb {
+  background-color: #484848;
+  border-radius: 6px;
+}
+
+.projects-section::-webkit-scrollbar {
+  width: 0.5rem;
 }
 
 app-one-project {

@@ -16,7 +16,7 @@ export class ProjectsComponent implements OnInit {
   ngOnInit(): void {
     this.dataService.getProjects().subscribe(data => {
       console.log(data);
-      this.projects = data;
+      this.projects = data.reverse();
     });
   }
 
