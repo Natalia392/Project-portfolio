@@ -7,3 +7,9 @@ export interface Project {
   urlGitHub: string;
   urlDeploy: string;
 }
+
+export interface Technology {
+  name: string;
+  icon: string;
+  type: string;
+}
