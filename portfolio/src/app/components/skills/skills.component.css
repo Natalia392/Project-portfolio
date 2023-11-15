@@ -20,14 +20,14 @@
 .skills-article {
   background-color: #65BAA9;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  max-height: 28rem;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  max-height: 80%;
   max-width: 80%;
   width: 38rem;
-  height: 20rem;
+  height: auto;
   row-gap: 1rem;
   padding: 2.5rem;
-  overflow: scroll;
+  overflow: auto;
   border-radius: 0.4rem;
   justify-items: center;
 }

@@ -10,14 +10,17 @@
   width: 8rem;
   height: 3rem;
   display: flex;
+  justify-content: center;
+}
+
+.skill-card:hover {
+  border: 2px solid #C5FCEF;
 }
 
 .skills-list {
   margin: 0;
   padding: 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .skills-list-item {
@@ -39,4 +42,14 @@
   color: #FFFFFF;
   font-size: 0.8rem;
   font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .skills-main {
+    justify-content: center;
+  }
+
+  .skills-article {
+    width: 90%;
+  }
 }
