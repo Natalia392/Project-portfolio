@@ -8,7 +8,7 @@ export interface Project {
   urlDeploy: string;
 }
 
-export interface Technology {
+export interface Skill {
   name: string;
   icon: string;
   type: string;
