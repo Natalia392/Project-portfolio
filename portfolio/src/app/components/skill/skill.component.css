@@ -1,0 +1,22 @@
+.skill-card {
+  background-color: #2D443F;
+  border-radius: 4px;
+  border: 1px solid #000000;
+  width: 10rem;
+  height: 4rem;
+}
+
+
+.skills-list-item {
+  list-style-type: none;
+}
+
+.skills-list-item img {
+  width: 2rem;
+  height: auto;
+}
+
+.skills-list-item strong {
+  color: #FFFFFF;
+}
+

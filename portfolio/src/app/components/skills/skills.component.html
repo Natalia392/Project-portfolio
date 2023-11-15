@@ -1,5 +1,10 @@
 <app-header></app-header>
 <main class="skills-main">
   <app-vertical-banner></app-vertical-banner>
+  <section class="skills-section">
+    <ng-container *ngFor="let skill of skills">
+      <app-skill [skill]="skill"></app-skill>
+    </ng-container>
+  </section>
   <app-vertical-banner></app-vertical-banner>
 </main>
