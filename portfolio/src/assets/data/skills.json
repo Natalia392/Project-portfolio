@@ -31,7 +31,7 @@
   },
   {
     "name": "Node.js",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
+    "icon": "../../assets/img/icons-tech/nodejs.png",
     "type": "Tools"
   },
   {

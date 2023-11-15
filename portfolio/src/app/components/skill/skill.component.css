@@ -1,22 +1,42 @@
-.skill-card {
-  background-color: #2D443F;
-  border-radius: 4px;
-  border: 1px solid #000000;
-  width: 10rem;
-  height: 4rem;
+:host {
+  max-width: 8rem;
 }
 
+.skill-card {
+  box-sizing: border-box;
+  background-color: #2D443F;
+  border-radius: 9px;
+  border: 2px solid #000000;
+  width: 8rem;
+  height: 3rem;
+  display: flex;
+}
+
+.skills-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .skills-list-item {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  max-width: 100%;
 }
 
 .skills-list-item img {
-  width: 2rem;
+  width: 1.5rem;
   height: auto;
+  border-radius: 2px;
 }
 
 .skills-list-item strong {
   color: #FFFFFF;
+  font-size: 0.8rem;
+  font-weight: 500;
 }
-
