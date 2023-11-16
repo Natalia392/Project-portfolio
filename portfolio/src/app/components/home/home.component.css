@@ -1,16 +1,26 @@
 .home-main {
   height: 100%;
   display: flex;
-  justify-content: space-between;
-  background-color:black;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.767);
 }
 
-.vertical-banner {
-  height: 100%;
+.home-main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url("../../../assets/img/general-img/fondo-cod.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  z-index: -1;
 }
 
 .name-role-title {
-  color: #FFF3F7;
+  color:#FFF3F7;
   font-weight: 100;
   font-size: 3rem;
   margin: 1rem;
@@ -59,4 +69,5 @@
 .btn-div {
   display: flex;
   justify-content: center;
+  gap: 1rem;
 }
