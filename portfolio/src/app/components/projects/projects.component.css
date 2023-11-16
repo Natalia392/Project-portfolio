@@ -1,19 +1,41 @@
 .project-main {
-  display: grid;
-  /* grid-template-columns: 10rem auto 10rem;
-  grid-template-areas: "left-banner projects-section right-banner"; */
-  background-color: black;
-  gap: 1rem
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  gap: 1rem;
+  padding: 2rem;
+  width: fit-content;
+  height: fit-content;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("../../../assets/img/general-img/fondo-cod.jpg");
+  background-size: cover;
+  background-position: center;
 }
+/*
+.project-main::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url("../../../assets/img/general-img/fondo-cod.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  z-index: -1;
+  height: 100%;
+} */
 
 .projects-section {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 2rem;
-  row-gap: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
   padding: 2rem;
-  max-height: 30rem;
-  overflow: scroll;
 }
 
 .projects-section::-webkit-scrollbar-thumb {
