@@ -75,3 +75,19 @@ a {
 .name-title:hover {
   cursor: pointer;
 }
+
+/* Agrega estilos para el ícono de hamburguesa */
+/* .menu-toggle {
+  cursor: pointer;
+  font-size: 1.5rem;
+} */
+
+/* Oculta la lista de botones por defecto */
+/* .nav-buttons-ul {
+  display: none;
+} */
+
+/* Muestra la lista de botones cuando el menú está abierto */
+/* .menu-opened .nav-buttons-ul {
+  display: flex;
+} */
