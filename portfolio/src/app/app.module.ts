@@ -12,7 +12,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { HeaderComponent } from './components/common/header/header.component';
-import { SkillComponent } from './components/common/skill/skill.component';
+import { SkillComponent } from './components/skill/skill.component';
 import { ProjectComponent } from './components/common/project/project.component';
 import { VerticalBannerComponent } from './components/common/vertical-banner/vertical-banner.component';
 import { OneProjectComponent } from './components/one-project/one-project.component';

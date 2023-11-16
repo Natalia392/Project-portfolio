@@ -1,5 +1,15 @@
 [
   {
+    "name": "JavaScript",
+    "icon": "https://seeklogo.com/images/J/javascript-logo-E967E87D74-seeklogo.com.png",
+    "type": "Frontend"
+  },
+  {
+    "name": "Typescript",
+    "icon": "../../assets/img/icons-tech/typescript.png",
+    "type": "Frontend"
+  },
+  {
     "name": "HTML5",
     "icon": "https://www.cdnlogo.com/logos/h/84/html.svg",
     "type": "Frontend"
@@ -10,8 +20,8 @@
     "type": "Frontend"
   },
   {
-    "name": "JavaScript",
-    "icon": "https://seeklogo.com/images/J/javascript-logo-E967E87D74-seeklogo.com.png",
+    "name": "Angular",
+    "icon": "../../assets/img/icons-tech/angular.png",
     "type": "Frontend"
   },
   {
@@ -20,33 +30,8 @@
     "type": "Frontend"
   },
   {
-    "name": "React Hooks",
-    "icon": "https://miro.medium.com/v2/resize:fit:1166/1*bqtyARlwzJtp9XTWjM3quQ.png",
-    "type": "Frontend"
-  },
-  {
-    "name": "SPA",
-    "icon": "https://www.shutterstock.com/image-vector/spa-single-page-application-acronym-260nw-1984866212.jpg",
-    "type": "Frontend"
-  },
-  {
-    "name": "MUI",
-    "icon": "https://v4.mui.com/static/logo_raw.svg",
-    "type": "Frontend"
-  },
-  {
-    "name": "Responsive",
-    "icon": "https://brolik.com/blog/wp-content/uploads/2013/05/BRO_ResponsiveDesign_Main2.png",
-    "type": "Frontend"
-  },
-  {
-    "name": "Font Awesome",
-    "icon": "https://ps.w.org/font-awesome/assets/icon-128x128.png?rev=1991998",
-    "type": "Frontend"
-  },
-  {
     "name": "Node.js",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
+    "icon": "../../assets/img/icons-tech/nodejs.png",
     "type": "Tools"
   },
   {
@@ -63,6 +48,16 @@
     "name": "Jest",
     "icon": "https://docs.knapsackpro.com/images/blog/posts/run-jest-on-github-actions-with-parallelization/jest.png",
     "type": "Tools"
+  },
+  {
+    "name": "Jasmine",
+    "icon": "../../assets/img/icons-tech/jasmine.png",
+    "type": "Frontend"
+  },
+  {
+    "name": "ESLint",
+    "icon": "../../assets/img/icons-tech/eslint.png",
+    "type": "Frontend"
   },
   {
     "name": "Fetch",
@@ -95,13 +90,33 @@
     "type": "Other"
   },
   {
+    "name": "Markdown",
+    "icon": "../../assets/img/icons-tech/markdown.png",
+    "type": "Frontend"
+  },
+  {
+    "name": "Trello",
+    "icon": "../../assets/img/icons-tech/trello.png",
+    "type": "Tools"
+  },
+  {
+    "name": "Responsive",
+    "icon": "https://brolik.com/blog/wp-content/uploads/2013/05/BRO_ResponsiveDesign_Main2.png",
+    "type": "Frontend"
+  },
+  {
+    "name": "Cloudinary",
+    "icon": "../../assets/img/icons-tech/cloudinary.png",
+    "type": "Frontend"
+  },
+  {
+    "name": "SPA",
+    "icon": "https://www.shutterstock.com/image-vector/spa-single-page-application-acronym-260nw-1984866212.jpg",
+    "type": "Frontend"
+  },
+  {
     "name": "Flowise",
     "icon": "https://flowiseai.com/_next/static/images/flowise_logo_dark-6c1a356f4868d3deb7864323ff93a0fa.png",
     "type": "Other"
-  },
-  {
-    "name": "Tailwind CSS",
-    "icon": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/tailwind-css-icon.png",
-    "type": "Frontend"
   }
 ]
