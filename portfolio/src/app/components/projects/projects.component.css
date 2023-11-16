@@ -1,7 +1,7 @@
 .project-main {
   display: grid;
-  grid-template-columns: 10rem auto 10rem;
-  grid-template-areas: "left-banner projects-section right-banner";
+  /* grid-template-columns: 10rem auto 10rem;
+  grid-template-areas: "left-banner projects-section right-banner"; */
   background-color: black;
   gap: 1rem
 }

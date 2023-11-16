@@ -1,13 +1,11 @@
 <app-header></app-header>
 <main class="skills-main">
-  <app-vertical-banner></app-vertical-banner>
   <section class="skills-section">
     <h1>Skills</h1>
     <article class="skills-article">
-      <ng-container *ngFor="let skill of skills">
+      <ng-container class="grid-item" *ngFor="let skill of skills">
         <app-skill [skill]="skill"></app-skill>
       </ng-container>
     </article>
   </section>
-  <app-vertical-banner></app-vertical-banner>
 </main>
