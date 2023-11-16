@@ -1,8 +1,11 @@
 <app-header></app-header>
 <main class="project-main">
   <section class="projects-section">
-    <ng-container *ngFor="let project of projects">
-      <app-one-project [project]="project"></app-one-project>
-    </ng-container>
+    <h1>Projects</h1>
+    <article>
+      <ng-container *ngFor="let project of projects">
+        <app-one-project [project]="project"></app-one-project>
+      </ng-container>
+    </article>
   </section>
 </main>
