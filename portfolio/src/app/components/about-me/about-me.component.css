@@ -22,12 +22,12 @@
 .section-about-me {
   margin-top: 2rem;
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
-  width: 80%;
-  gap: 2rem;
+  width: 88%;
+  gap: 1rem;
   /* height: 80%; */
 }
 
@@ -35,8 +35,8 @@
   /* display: flex;
   flex-direction: column; */
   max-height: 90%;
-  height:auto;
-  max-width: 70%;
+  height: auto;
+  max-width: 55%;
   min-width: 70%;
 }
 
@@ -56,7 +56,7 @@
   font-weight: 100;
   margin: 1rem;
   margin: 0;
-  word-wrap:break-word;
+  word-wrap: break-word;
 }
 
 .about-me-p {
@@ -78,52 +78,61 @@
   border-radius: 5px;
 }
 
-@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 896px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-    /* Tus estilos específicos para iPhone XR en modo retrato aquí */
-    .section-about-me {
-      width: 90%;
-      flex-direction: column;
-      align-items: center;
-    }
+@media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 
-    .about-me-text {
-      width: 95%;
-      text-align: center;
-    }
+  .section-about-me {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .about-me-title {
-      font-size: 6vw;
-    }
-
-    .about-me-p {
-      font-size: 3.5vw;
-    }
-
-    .moca-me {
-      height: 50%;
-      width: auto;
-      max-width: 70%;
-    }
-}
-
-@media screen and (max-width: 700px) {
-  /* Estilos específicos para pantallas con un ancho menor a 700px */
+  .about-me-text {
+    width: 95%;
+    text-align: center;
+  }
 
   .about-me-title {
-    font-size: 4vw; /* Ajusta el tamaño del título para pantallas más pequeñas */
+    font-size: 6vw;
   }
 
   .about-me-p {
-    font-size: 2vw; /* Ajusta el tamaño del párrafo para pantallas más pequeñas */
+    font-size: 3.5vw;
   }
 
   .moca-me {
-    width: 80%; /* Ajusta el ancho de la imagen para pantallas más pequeñas */
-    max-width: none; /* Elimina la restricción de ancho máximo para pantallas más pequeñas si es necesario */
+    height: 50%;
+    width: auto;
+    max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 667px) {
+
+  /* Estilos específicos para pantallas con un ancho menor a 700px */
+  .section-about-me {
+    margin: 0;
+  }
+
+  .about-me-text {
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .about-me-title {
+    font-size: 4vw;
+    /* Ajusta el tamaño del título para pantallas más pequeñas */
+  }
+
+  .about-me-p {
+    font-size: 2.5vw;
+    /* Ajusta el tamaño del párrafo para pantallas más pequeñas */
+  }
+
+  .moca-me {
+    width: 30%;
+    /* Ajusta el ancho de la imagen para pantallas más pequeñas */
+    max-width: none;
+    /* Elimina la restricción de ancho máximo para pantallas más pequeñas si es necesario */
   }
 
 }
