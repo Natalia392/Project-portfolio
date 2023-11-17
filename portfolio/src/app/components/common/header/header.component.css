@@ -43,6 +43,7 @@ a {
   font-family: Roboto;
   font-weight: 100;
   transition: background-color 0.3s ease;
+  background-color: #C2185B;
 }
 
 .nav-buttons-ul {
@@ -72,6 +73,31 @@ a {
   font-size: 1rem;
 }
 
-.name-title:hover {
+.name-title:hover,
+.mat-icon:hover {
   cursor: pointer;
+}
+
+.mat-icon {
+  background-color: #C2185B;
+  border: none;
+}
+
+.menu-btn-icon {
+  background-color: #C2185B;
+  border: none;
+}
+
+/* ---- estilos para el mat menu y su dropdown ----*/
+
+/* .dropdown {
+  background-color: #C2185B;
+} */
+
+/* .dropdown-item {
+  background-color: #C2185B;
+} */
+
+.dropdown-item:hover {
+  background-color: #df1b69;
 }

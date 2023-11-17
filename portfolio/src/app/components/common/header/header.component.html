@@ -9,7 +9,17 @@
         <h2 class="nav-items">Front-End Developer</h2>
       </div>
     </a>
-    <ul class="nav-buttons-ul">
+    <button *ngIf="isSmallScreen" mat-icon-button class="menu-btn-icon" [matMenuTriggerFor]="menu" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <mat-menu class="dropdown" #menu="matMenu">
+      <button class="dropdown-item" mat-menu-item routerLink="">Home</button>
+      <button class="dropdown-item" mat-menu-item routerLink="/about-me">About Me</button>
+      <button class="dropdown-item" mat-menu-item routerLink="/projects">Projects</button>
+      <button class="dropdown-item" mat-menu-item routerLink="/skills">Skills</button>
+      <button class="dropdown-item" mat-menu-item routerLink="/contact">Contact</button>
+    </mat-menu>
+    <ul class="nav-buttons-ul" *ngIf="showButtons">
       <li><a class="nav-buttons" routerLink="">Home</a></li>
       <li><a class="nav-buttons" routerLink="/about-me">About Me</a></li>
       <li><a class="nav-buttons" routerLink="/projects">Projects</a></li>
