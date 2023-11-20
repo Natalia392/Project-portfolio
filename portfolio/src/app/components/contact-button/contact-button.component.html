@@ -1,5 +1,6 @@
-<div>
-  <button>
-    <img [src]="contact?.icon" alt="contact?.icon">
-  </button>
+<div class="a-container">
+  <a [href]="contact?.url" target="_blank" class="link-btn">
+    <img [src]="contact?.icon" alt="contact?.icon" class="contact-icon">
+    {{ contact?.name }}
+  </a>
 </div>

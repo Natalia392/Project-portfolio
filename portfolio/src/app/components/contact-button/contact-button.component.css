@@ -1,0 +1,34 @@
+.a-container {
+  box-sizing: border-box;
+  background-color: #65BAA9;
+  border-radius: 6px;
+  border: 1px solid #C5FCEF;
+  width: 50vw;
+  max-width: 18rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+
+
+.link-btn {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 100;
+  color: black;
+}
+
+.link-btn {
+  color: black;
+}
+
+.contact-icon {
+  width: 1.5rem;
+  height: auto;
+  border-radius: 2px;
+}
