@@ -22,8 +22,12 @@
 .name-role-title {
   color:#FFF3F7;
   font-weight: 100;
-  font-size: 3rem;
-  margin: 1rem;
+  font-size: 2.5rem;
+  margin: 0.3rem;
+}
+
+.name-role h2 {
+  font-size: 1.5rem;
 }
 
 .container-info-home {
@@ -40,10 +44,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0;
 }
 
 .moca-me {
-  width: 13rem;
+  width: 13vw;
   height: auto;
   border-radius: 5px;
 }
@@ -69,5 +74,21 @@
 .btn-div {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 1rem;
+}
+
+@media screen and (max-width: 667px) {
+  .name-role-title {
+    font-size: 10vw;
+  }
+
+  .moca-me {
+    height: 40vw;
+    width: auto;
+  }
+
+  .btn-div {
+    flex-direction: column;
+  }
 }
