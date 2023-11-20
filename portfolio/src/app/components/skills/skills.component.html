@@ -3,7 +3,7 @@
   <section class="skills-section">
     <h1>Skills</h1>
     <article class="skills-article">
-      <ng-container class="grid-item" *ngFor="let skill of skills">
+      <ng-container class="one-skill-container" *ngFor="let skill of skills">
         <app-skill [skill]="skill"></app-skill>
       </ng-container>
     </article>

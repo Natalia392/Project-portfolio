@@ -1,8 +1,13 @@
 .skills-main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  background-color:rgb(0, 0, 0);
-  /* background-image: url("../../../assets/img/general-img/fondo-cod.jpg"); */
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  gap: 1rem;
+  padding: 2rem;
+  width: fit-content;
+  height: fit-content;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("../../../assets/img/general-img/fondo-cod.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -21,24 +26,26 @@
 }
 
 .skills-article {
-  background-color: #65BAA9;
-  display: grid;
-  grid-template-columns: repeat(4, minmax(10%, 3fr));
+  background-color: #65baa9;
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente fila si no hay suficiente espacio */
   max-height: 80%;
   max-width: 80%;
-  width: 100%;
-  height: auto;
-  row-gap: 1rem;
-  column-gap: 2rem;
+  width: 60%;
+  height: 100%;
+  gap: 1rem;
   padding: 2.5rem;
   overflow: auto;
   border-radius: 0.4rem;
-  justify-items: center;
+  justify-content: space-around; /* Distribuye los elementos uniformemente en el eje principal */
+  align-items: center; /* Alinea verticalmente */
 }
 
-.grid-item {
+.one-skill-container {
+  flex: 0 1 calc(25% - 2rem); /* Distribuir el espacio en 4 columnas con espacio entre ellas */
   height: 10rem;
-  display: grid;
+  margin: 0.5rem; /* Espacio entre los elementos */
+  display: flex;
   align-items: center;
   justify-content: center;
 }

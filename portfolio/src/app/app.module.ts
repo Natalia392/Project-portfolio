@@ -16,6 +16,7 @@ import { SkillComponent } from './components/skill/skill.component';
 import { ProjectComponent } from './components/common/project/project.component';
 import { VerticalBannerComponent } from './components/common/vertical-banner/vertical-banner.component';
 import { OneProjectComponent } from './components/one-project/one-project.component';
+import { ContactButtonComponent } from './components/contact-button/contact-button.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { OneProjectComponent } from './components/one-project/one-project.compon
     ProjectComponent,
     VerticalBannerComponent,
     OneProjectComponent,
+    ContactButtonComponent,
   ],
   imports: [
     BrowserModule,
