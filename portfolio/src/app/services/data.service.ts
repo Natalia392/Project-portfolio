@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Project, Skill,  } from '../interfaces/data';
+import { Contact, Project, Skill } from '../interfaces/data';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
@@ -18,5 +18,9 @@ export class DataService {
 
   getSkills(): Observable<Skill[]> {
     return this.http.get<Skill[]>('../../assets/data/skills.json');
+  }
+
+  getContacts(): Observable<Contact[]> {
+    return this.http.get<Contact[]>('../../assets/data/skills.json');
   }
 }

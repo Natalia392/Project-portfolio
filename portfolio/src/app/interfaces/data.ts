@@ -13,3 +13,9 @@ export interface Skill {
   icon: string;
   type: string;
 }
+
+export interface Contact {
+  name: string;
+  url: string;
+  icon: string;
+}
