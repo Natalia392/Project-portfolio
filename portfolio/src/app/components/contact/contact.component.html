@@ -7,5 +7,10 @@
         <app-contact-button [contact]="contact"></app-contact-button>
       </ng-container>
     </article>
+    <div class="text-to-copy" (click)="handleCopyClick()">
+      <p>
+        {{ textToCopy }}
+      </p>
+    </div>
   </section>
 </main>

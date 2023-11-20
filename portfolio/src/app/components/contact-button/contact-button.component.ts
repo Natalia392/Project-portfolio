@@ -9,4 +9,10 @@ import { Contact } from 'src/app/interfaces/data';
 export class ContactButtonComponent {
 
   @Input() contact: Contact | undefined;
+
+  redirect() {
+    if(this.contact?.url) {
+      window.open(this.contact.url, '_blank');
+    }
+  }
 }

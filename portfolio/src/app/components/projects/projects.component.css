@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* background-color: rgba(0, 0, 0, 0.8); */
   gap: 1rem;
   padding: 2rem;
   width: fit-content;
@@ -11,24 +10,6 @@
   background-size: cover;
   background-position: center;
 }
-/*
-.project-main::before {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: url("../../../assets/img/general-img/fondo-cod.jpg");
-  background-size: cover;
-  background-position: center;
-  opacity: 0.8;
-  z-index: -1;
-  height: 100%;
-} */
 
 .projects-section {
   display: flex;

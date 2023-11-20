@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from 'src/app/services/data.service';
 import { Contact } from 'src/app/interfaces/data';
+import { ClipboardService } from 'ngx-clipboard';
 
 @Component({
   selector: 'app-contact',
@@ -9,7 +10,9 @@ import { Contact } from 'src/app/interfaces/data';
 })
 export class ContactComponent implements OnInit {
 
-  constructor(private dataService: DataService) {}
+  constructor(private dataService: DataService, private clipBoardService: ClipboardService) {}
+
+  textToCopy: string = "ntorrejonvalencia@gmail.com";
 
   contacts: Contact[] = [];
 
@@ -18,6 +21,11 @@ export class ContactComponent implements OnInit {
       console.log(data);
       this.contacts = data;
     });
+  }
+
+  handleCopyClick() {
+    this.clipBoardService.copy(this.textToCopy);
+    alert('Succesfully copied!');
   }
 
 }

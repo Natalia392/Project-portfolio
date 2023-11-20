@@ -9,9 +9,17 @@
   display: flex;
   justify-content: center;
   align-self: center;
+  transition: transform 0.3 ease;
 }
 
+.a-container:hover {
+  transform: scale(1.02);
+  background-color: #2D443F;
+}
 
+.a-container a:hover {
+  color: #FFF3F7;
+}
 
 .link-btn {
   text-decoration: none;
@@ -23,7 +31,7 @@
   color: black;
 }
 
-.link-btn {
+.link-btn:visited {
   color: black;
 }
 
