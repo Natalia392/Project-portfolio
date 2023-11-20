@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Contact } from 'src/app/interfaces/data';
 
 @Component({
   selector: 'app-contact-button',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class ContactButtonComponent {
 
+  @Input() contact: Contact | undefined;
 }

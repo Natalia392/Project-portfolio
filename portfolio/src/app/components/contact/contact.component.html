@@ -3,7 +3,9 @@
   <section class="contact-section">
     <h1>Find me on:</h1>
     <article class="contact-article">
-
+      <ng-container class="contact-container" *ngFor="let contact of contacts">
+        <app-contact-button [contact]="contact"></app-contact-button>
+      </ng-container>
     </article>
   </section>
 </main>

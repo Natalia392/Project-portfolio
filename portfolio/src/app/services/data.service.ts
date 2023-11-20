@@ -21,6 +21,6 @@ export class DataService {
   }
 
   getContacts(): Observable<Contact[]> {
-    return this.http.get<Contact[]>('../../assets/data/skills.json');
+    return this.http.get<Contact[]>('../../assets/data/contact.json');
   }
 }

@@ -7,7 +7,7 @@ import { DataService } from 'src/app/services/data.service';
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.css']
 })
-export class SkillsComponent {
+export class SkillsComponent implements OnInit {
 
   constructor(private dataService: DataService) {}
 
