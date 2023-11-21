@@ -1,0 +1,17 @@
+[
+  {
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/natalia-torrejon-developer/",
+    "icon": "../../assets/img/icons-tech/linkedin.png"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com/Natalia392",
+    "icon": "../../assets/img/icons-tech/github-black.png"
+  },
+  {
+    "name": "Resume",
+    "url": "https://drive.google.com/drive/folders/1z5X73NaDd6KtUFDas0324INOOe_rIsw_",
+    "icon":"../../assets/img/icons-tech/cv-icon.png"
+  }
+]
