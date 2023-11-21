@@ -17,7 +17,7 @@
   background-color: #2D443F;
 }
 
-.a-container a:hover {
+.a-container:hover a {
   color: #FFF3F7;
 }
 

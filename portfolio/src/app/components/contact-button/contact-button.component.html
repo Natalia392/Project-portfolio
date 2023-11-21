@@ -1,4 +1,4 @@
-<div class="a-container" (click)="redirect()">
+<div class="a-container" (click)="redirect()" (mouseover)="hoverActive = true; changeImg()" (mouseout)="hoverActive = false; changeImg()">
   <a [href]="contact?.url" target="_blank" class="link-btn">
     <img [src]="contact?.icon" alt="contact?.icon" class="contact-icon">
     {{ contact?.name }}

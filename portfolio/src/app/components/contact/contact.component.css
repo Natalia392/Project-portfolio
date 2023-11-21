@@ -55,8 +55,8 @@
   color: #FFF3F7;
 }
 
-.text-to-copy p:hover {
-  color: #C2185B;
+.text-to-copy:hover p {
+  color:#C2185B;
 }
 
 @media screen and (max-width: 667px) {

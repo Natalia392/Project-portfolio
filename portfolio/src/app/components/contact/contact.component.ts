@@ -12,9 +12,9 @@ export class ContactComponent implements OnInit {
 
   constructor(private dataService: DataService, private clipBoardService: ClipboardService) {}
 
-  textToCopy: string = "ntorrejonvalencia@gmail.com";
-
   contacts: Contact[] = [];
+
+  textToCopy: string = "ntorrejonvalencia@gmail.com";
 
   ngOnInit(): void {
     this.dataService.getContacts().subscribe(data => {
