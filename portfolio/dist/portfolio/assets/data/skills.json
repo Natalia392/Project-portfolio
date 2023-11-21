@@ -1,0 +1,122 @@
+[
+  {
+    "name": "JavaScript",
+    "icon": "https://seeklogo.com/images/J/javascript-logo-E967E87D74-seeklogo.com.png",
+    "type": "Frontend"
+  },
+  {
+    "name": "Typescript",
+    "icon": "../../assets/img/icons-tech/typescript.png",
+    "type": "Frontend"
+  },
+  {
+    "name": "HTML5",
+    "icon": "https://www.cdnlogo.com/logos/h/84/html.svg",
+    "type": "Frontend"
+  },
+  {
+    "name": "CSS3",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+    "type": "Frontend"
+  },
+  {
+    "name": "Angular",
+    "icon": "../../assets/img/icons-tech/angular.png",
+    "type": "Frontend"
+  },
+  {
+    "name": "React",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+    "type": "Frontend"
+  },
+  {
+    "name": "Node.js",
+    "icon": "../../assets/img/icons-tech/nodejs.png",
+    "type": "Tools"
+  },
+  {
+    "name": "Git",
+    "icon": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+    "type": "Tools"
+  },
+  {
+    "name": "GitHub",
+    "icon": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png",
+    "type": "Tools"
+  },
+  {
+    "name": "Jest",
+    "icon": "https://docs.knapsackpro.com/images/blog/posts/run-jest-on-github-actions-with-parallelization/jest.png",
+    "type": "Tools"
+  },
+  {
+    "name": "Jasmine",
+    "icon": "../../assets/img/icons-tech/jasmine.png",
+    "type": "Frontend"
+  },
+  {
+    "name": "ESLint",
+    "icon": "../../assets/img/icons-tech/eslint.png",
+    "type": "Frontend"
+  },
+  {
+    "name": "Fetch",
+    "icon": "https://img.freepik.com/vector-premium/api-conectarse-codificacion-aplicaciones-software-intercambiar-informacion-desarrollo-sitios-web_566886-6163.jpg?w=1380",
+    "type": "Tools"
+  },
+  {
+    "name": "Axios",
+    "icon": "../../assets/img/icons-tech/axios.png",
+    "type": "Tools"
+  },
+  {
+    "name": "npm",
+    "icon": "https://avatars.githubusercontent.com/u/6078720?s=200&v=4",
+    "type": "Tools"
+  },
+  {
+    "name": "Firebase",
+    "icon": "https://seeklogo.com/images/F/firebase-logo-402F407EE0-seeklogo.com.png",
+    "type": "Tools"
+  },
+  {
+    "name": "Figma",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/250px-Figma-logo.svg.png",
+    "type": "Other"
+  },
+  {
+    "name": "Scrum",
+    "icon": "https://pluralsight2.imgix.net/paths/images/scrum-a5c44d8364.png",
+    "type": "Other"
+  },
+  {
+    "name": "Markdown",
+    "icon": "../../assets/img/icons-tech/markdown.png",
+    "type": "Frontend"
+  },
+  {
+    "name": "Trello",
+    "icon": "../../assets/img/icons-tech/trello.png",
+    "type": "Tools"
+  },
+  {
+    "name": "Responsive",
+    "icon": "https://brolik.com/blog/wp-content/uploads/2013/05/BRO_ResponsiveDesign_Main2.png",
+    "type": "Frontend"
+  },
+  {
+    "name": "Cloudinary",
+    "icon": "../../assets/img/icons-tech/cloudinary.png",
+    "type": "Frontend"
+  },
+  {
+    "name": "SPA",
+    "icon": "https://www.shutterstock.com/image-vector/spa-single-page-application-acronym-260nw-1984866212.jpg",
+    "type": "Frontend"
+  },
+  {
+    "name": "Flowise",
+    "icon": "https://flowiseai.com/_next/static/images/flowise_logo_dark-6c1a356f4868d3deb7864323ff93a0fa.png",
+    "type": "Other"
+  }
+]
