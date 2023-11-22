@@ -1,22 +1,14 @@
 .about-me-main {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content:flex-start; */
   background-color: rgba(0, 0, 0, 0.8);
-  height: 90%;
-}
-
-.about-me-main::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: url("../../../assets/img/general-img/fondo-cod.jpg");
+  gap: 1rem;
+  padding: 2rem;
+  width: fit-content;
+  height: 100%;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("../../../assets/img/general-img/fondo-cod.jpg");
   background-size: cover;
   background-position: center;
-  opacity: 0.8;
-  z-index: -1;
 }
 
 .section-about-me {
@@ -43,7 +35,7 @@
 .figure {
   display: flex;
   justify-content: center;
-  width: 60%;
+  /* width: 60%; */
   flex-basis: 10rem;
   flex-grow: 1;
   margin: 0;
@@ -80,28 +72,38 @@
 @media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 
   .section-about-me {
-    width: 100%;
-    flex-direction: column;
+    width: auto;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column; /* Ajuste a dirección de fila para que los elementos estén uno al lado del otro */
     align-items: center;
+    justify-content: center; /* Ajuste para distribuir espacio entre los elementos */
+    flex-wrap: wrap;
   }
 
   .about-me-text {
-    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+    width: 80%;
+    height: 100%; /* Ajuste a 100% para ocupar la altura completa del contenedor */
+    box-sizing: border-box; /* Asegura que el padding y border no afecten al ancho y alto */
+    padding: 0 20px; /* Ajuste opcional para agregar espacio alrededor del texto */
   }
 
   .about-me-title {
-    font-size: 6vw;
+    font-size: 4vw;
   }
 
   .about-me-p {
-    font-size: 3.5vw;
+    font-size: 2vw;
   }
 
   .moca-me {
-    height: 50%;
-    width: auto;
-    max-width: 70%;
+    width: 40%; /* Ajuste al 30% para cumplir con la proporción */
+    max-width: 100%; /* Garantiza que la imagen no sea más ancha que su contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
   }
 }
 
@@ -119,19 +121,15 @@
 
   .about-me-title {
     font-size: 5vw;
-    /* Ajusta el tamaño del título para pantallas más pequeñas */
   }
 
   .about-me-p {
     font-size: 3vw;
-    /* Ajusta el tamaño del párrafo para pantallas más pequeñas */
   }
 
   .moca-me {
     width: 30%;
-    /* Ajusta el ancho de la imagen para pantallas más pequeñas */
     max-width: none;
-    /* Elimina la restricción de ancho máximo para pantallas más pequeñas si es necesario */
   }
 
 }
