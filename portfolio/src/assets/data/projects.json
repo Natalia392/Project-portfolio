@@ -125,7 +125,7 @@
       "id": 8,
       "name": "The Missing Piece",
       "image": "../../assets/img/project-imgs/missing-piece.png",
-      "description": "A web aplication for elderly to exchange puzzles",
+      "description": "A web aplication for the elderly to exchange puzzles",
       "technologies": [
         "React",
         "CSS",
