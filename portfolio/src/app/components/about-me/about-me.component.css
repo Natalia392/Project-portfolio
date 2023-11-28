@@ -59,7 +59,8 @@
 .about-me-title {
   font-size: 5vw;
   max-width: 100%;
-  margin-bottom: 1.2rem;
+  line-height: 1.5;
+  /* margin-bottom: 1.2rem; */
 }
 
 .moca-me {
@@ -86,10 +87,10 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 80%;
-    height: 100%; /* Ajuste a 100% para ocupar la altura completa del contenedor */
-    box-sizing: border-box; /* Asegura que el padding y border no afecten al ancho y alto */
-    padding: 0 20px; /* Ajuste opcional para agregar espacio alrededor del texto */
+    /* width: 80%; */
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0 20px;
   }
 
   .about-me-title {
@@ -101,9 +102,9 @@
   }
 
   .moca-me {
-    width: 40%; /* Ajuste al 30% para cumplir con la proporción */
-    max-width: 100%; /* Garantiza que la imagen no sea más ancha que su contenedor */
-    height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
+    width: 40%;
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -128,7 +129,7 @@
   }
 
   .moca-me {
-    width: 30%;
+    /* width: 30%; */
     max-width: none;
   }
 
